@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Current Weather</title>
+  <link rel="icon" href="./favicon.ico" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
+</head>
+
+<body>
+  <div class="container text-center">
+    <h1 class="">Today's Weather</h1>
+    <div class="row mt-5">
+      <div class="col-md-4 offset-md-4">
+        <input type="search" name="" placeholder="Enter City Name" id="city_name" class="form-control text-center" />
+        <button class="btn btn-outline-info mt-3" id="getBtn">
+          Get Temperature
+        </button>
+        <div class="mt-5" id="weatherData">
+          <div>
+            <span class="title">City Name:</span><span class="value">Delhi</span>
+          </div>
+          <div>
+            <span class="title">Feels Like:</span><span class="value">293.27</span>
+          </div>
+          <div>
+            <span class="title">Current Temperature:</span><span class="value">294.2</span>
+          </div>
+          <div>
+            <span class="title">Type:</span><span class="value">smoke</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./weather.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
